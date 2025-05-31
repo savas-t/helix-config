@@ -2,6 +2,7 @@ theme = 'custom'
 
 [editor]
 line-number = 'relative'
+mouse = false
 
 [editor.file-picker]
 hidden = false
