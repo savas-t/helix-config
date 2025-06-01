@@ -9,6 +9,12 @@ language-servers = ["emmet-lsp", "tailwindcss-ls"]
 formatter = { command = "prettier", args = ["--parser", "html"] }
 
 [[language]]
+name = "markdown"
+auto-format = true
+language-servers = ["marksman"]
+formatter = { command = "prettier", args = ["--parser", "markdown"] }
+
+[[language]]
 name = "css"
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "css"] }
