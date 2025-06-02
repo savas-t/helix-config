@@ -29,4 +29,4 @@ formatter = { command = "prettier", args = ["--parser", "typescript"] }
 name = "typescript"
 language-servers = ["typescript-language-server"]
 auto-format = true
-formatter = { command = "prettier", agrs = ["--parser", "typescript"] }
+formatter = { command = "prettier", args = ["--parser", "typescript"] }
