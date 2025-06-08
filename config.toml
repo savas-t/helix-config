@@ -1,7 +1,7 @@
-theme = 'custom'
+theme = "custom"
 
 [editor]
-line-number = 'relative'
+line-number = "relative"
 mouse = false
 
 [editor.file-picker]
