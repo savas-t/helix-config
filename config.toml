@@ -3,6 +3,7 @@ theme = "custom"
 [editor]
 line-number = "relative"
 mouse = false
+cursorline = true
 
 [editor.file-picker]
 hidden = false
