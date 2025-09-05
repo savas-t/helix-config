@@ -21,12 +21,18 @@ formatter = { command = "prettier", args = ["--parser", "css"] }
 
 [[language]]
 name = "tsx"
-language-servers = ["emmet-lsp", "typescript-language-server", "tailwindcss-ls"]
+language-servers = ["typescript-language-server", "emmet-lsp",  "tailwindcss-ls"]
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
 
 [[language]]
 name = "typescript"
+language-servers = ["typescript-language-server"]
+auto-format = true
+formatter = { command = "prettier", args = ["--parser", "typescript"] }
+
+[[language]]
+name = "javascript"
 language-servers = ["typescript-language-server"]
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
