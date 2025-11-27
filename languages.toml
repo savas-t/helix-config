@@ -2,6 +2,10 @@
 command = "emmet-language-server"
 args = ["--stdio"]
 
+[language-server.astro-ls]
+command = "astro-ls"
+args = ["--stdio"]
+
 [[language]]
 name = "html"
 auto-format = true
@@ -36,3 +40,9 @@ name = "javascript"
 language-servers = ["typescript-language-server"]
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
+
+[[language]]
+name = "astro"
+language-servers = ["astro-ls"]
+auto-format = true
+formatter = { command = "prettier", args = ["--plugin", "prettier-plugin-astro", "--parser", "astro"] }
