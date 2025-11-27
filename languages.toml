@@ -1,4 +1,4 @@
-[language-server.emmet-lsp]
+[language-server.emmet-ls]
 command = "emmet-language-server"
 args = ["--stdio"]
 
@@ -9,7 +9,7 @@ args = ["--stdio"]
 [[language]]
 name = "html"
 auto-format = true
-language-servers = ["emmet-lsp", "tailwindcss-ls"]
+language-servers = ["emmet-ls", "tailwindcss-ls"]
 formatter = { command = "prettier", args = ["--parser", "html"] }
 
 [[language]]
@@ -25,7 +25,7 @@ formatter = { command = "prettier", args = ["--parser", "css"] }
 
 [[language]]
 name = "tsx"
-language-servers = ["typescript-language-server", "emmet-lsp",  "tailwindcss-ls"]
+language-servers = ["typescript-language-server", "emmet-ls",  "tailwindcss-ls"]
 auto-format = true
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
 
@@ -43,6 +43,6 @@ formatter = { command = "prettier", args = ["--parser", "typescript"] }
 
 [[language]]
 name = "astro"
-language-servers = ["astro-ls"]
+language-servers = ["astro-ls", "emmet-ls", "tailwindcss-ls"]
 auto-format = true
 formatter = { command = "prettier", args = ["--plugin", "prettier-plugin-astro", "--parser", "astro"] }
